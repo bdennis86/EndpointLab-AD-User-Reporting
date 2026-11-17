@@ -1,0 +1,18 @@
+
+# Generated reports and logs
+Reports/
+Logs/
+CustomReports/
+*.log
+
+# Exclude CSV exports by default
+*.csv
+
+# Allow only the fictional sample
+!examples/AD-Users-Report-SAMPLE.csv
+
+# Local configuration and secrets
+.env
+*.pfx
+*.p12
+*.key
